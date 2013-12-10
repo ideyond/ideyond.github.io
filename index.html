@@ -1,52 +1,150 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <a meta name="description" content="Ideyond : Taking ideas beyond!" href="http://ideyond.github.io/"> </a>
+<head>
+  <title>Ideyond, Ideyond, Ideyond</title>
+  <meta name="description" content="Ideyond" />
+  <meta name="keywords" content="Ideyond" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+  </script> 
+</head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<body>
+  <div id="main">
 
-    <title> ~ Ideyond ~ </title>
-  </head>
+        <div id="menubar">
+          <div id="welcome">
+            <h1><a href="#">Welcome To Ideyond</a></h1>
+          </div>        <!--close welcome-->
+      <div id="menu_items">
+            <ul id="menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="ourwork.html">Our Work</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>                        <!--close menu-->
+    </div>                        <!--close menubar-->        
+    
+        <div id="site_content">                
 
-  <body>
+          <div id="banner_image">
+            <div id="slider-wrapper">        
+          <div id="slider" class="nivoSlider">
+            <img src="images/home_1.jpg" alt="Image not working properly" />
+            <img src="images/home_2.jpg" alt="Image not working properly" />
+                  </div>        <!--close slider-->
+                </div>                <!--close slider_wrapper-->
+          </div>                <!--close banner_image-->        
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-
-          <a href="/"><h1 id="project_title">Ideyond</h1></a>
-          <h2 id="project_tagline">Taking ideas beyond!</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-ideyond" class="anchor" href="#welcome-to-ideyond"><span class="octicon octicon-link"></span></a>Welcome to Ideyond</h3>
-       
+          <div class="sidebar_container">       
+                <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>New Website</h2>
+            <p>Welcome to our new website. Please have a look around, any feedback is much appreciated.</p>
+          </div>                <!--close sidebar_item--> 
+        </div>                        <!--close sidebar-->                     
+                <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Latest Update</h2>
+            <h3>November 22, 2013</h3>
+            <p>The website code is now uploaded to Github! We have created our Heroku website. Figuring out how to 
+                    input the code from Github to Heroku.</p>         
+                  </div>        <!--close sidebar_item--> 
+        </div>                        <!--close sidebar-->
+                <div class="sidebar">
+              <div class="sidebar_item">
+                      <h3>November 21, 2013</h3>
+                      <p>The code has been inputed into Github but the Heroku App is still causing problems.</p>
+              </div>  <!--close sidebar_item-->
+              </div>        <!--close sidebar--> 
+                <div class="sidebar">
+          <div class="sidebar_item">
+            <h3>November 20, 2013</h3>
+            <p>Testing GitHub. Let's hope this works.</p>         
+                  </div>        <!--close sidebar_item--> 
+        </div>                        <!--close sidebar-->                  
+      </div>                        <!--close sidebar_container-->        
+              
+         
+          <div id="content">
+        <div class="content_item">
+                  <h1>Welcome To Ideyond</h1> 
+                  <h2>Description</h2>
+              <p>This webpage was created by a team of young engineers as they strive to fulfill 
+              their year-long project goal (learn more about our project
+              <a href="/projects.html">here</a>. <!--link to projects page -->
+              This website will help us present our products in a professional manner and allow anyone
+              who maybe interested in our products or our team to be able to contact us.</p>          
+                  <div class="content_container">
+                    <p>What's up visitors! Welcome! I don't know what to say...</p>
+                          <div class="button_small">
+                      <a href="#">Read more</a>
+                    </div>                                <!--close button_small-->
+                  </div>                                <!--close content_container-->
+          <div class="content_container">
+                    <p>This is an example article.</p>          
+                          <div class="button_small">
+                      <a href="#">Read more</a>
+                    </div>                                <!--close button_small-->                  
+                  </div>                                <!--close content_container-->                
+                  <div class="content_container">
+                    <p>This is another example article.</p>
+                          <div class="button_small">
+                      <a href="#">Read more</a>
+                    </div>                                <!--close button_small-->
+                  </div>                                <!--close content_container-->
+          <div class="content_container">
+                    <p>This is another example article.</p>          
+                          <div class="button_small">
+                      <a href="#">Read more</a>
+                    </div>                                <!--close button_small-->                  
+                  </div>                                <!--close content_container-->                          
+                </div>                                        <!--close content_item-->
+      </div>                                                <!--close content-->   
+        
+          <div id="content_blue">
+            <div class="content_blue_container_box">
+                  <h4>Latest Blog Post</h4>
+              <p> 11/20/13 Example Blog posts. Today at Ideyond we figured out github! YAY!</p>
+                  <div class="readmore">
+                    <a href="#">Read more</a>
+                  </div>                                <!--close readmore-->
+            </div>                                        <!--close content_blue_container_box-->
+        <div class="content_blue_container_box">
+         <h4>Latest News</h4>
+              <p> Breaking News!! I don't know what im typing.</p>
+              <div class="readmore">
+                    <a href="#">Read more</a>
+                  </div>                                <!--close readmore-->
+            </div>                                        <!--close content_blue_container_box-->
+        <div class="content_blue_container_boxl">
+                  <h4>Latest Projects</h4>
+              <p> No previous projects available.</p>
+              <div class="readmore">
+                    <a href="#">Read more</a>
+                  </div>                                <!--close readmore-->          
+            </div>                                        <!--close content_blue_container_box1-->      
+            <br style="clear:both"/>
+      </div>                                                <!--close content_blue-->         
+        </div>                                                <!--close site_content--> 
   
-<p>A company founded by El Segundo High School students Eric Perkey, Bridget Reed, Alex Koran, and John Aquino.</p>
-    <a href="/projects.html"><h3>Projects</h3></a>   
-          <p>Current projects include: Traffic Light Innovation</p>
-    <a href="news.yahoo.com/"><h3>Latest News</h3></a>
-          <p>No new friends. No new news.</p>
-    <a href="/team.html"><h3>Meet the Team</h3></a>
-    
-    </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-      </footer>
-    </div>
-
-    
-
-  </body>
+  </div>                                                <!--close main-->
+  
+  <div id="footer">
+          | <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a>  
+          | <a href="http://www.facebook.com/ideyond">Like us on Facebook!</a>  
+          | <a href="http://www.twitter.com/ideyond">Follow us on Twitter!</a> 
+  </div>                                                <!--close footer-->  
+  
+</body>
 </html>
