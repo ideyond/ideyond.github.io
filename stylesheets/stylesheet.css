@@ -86,11 +86,11 @@ ol li
  
 #welcome
 { width: 360px;
- float: left;
+ float: center;
  text-align: center;
  height: 45px;
- margin: 0 auto;
- padding-left: 20px;
+ margin: 20px auto;
+ padding: 20px;
  background: transparent;}  
   
 #welcome h1 a
