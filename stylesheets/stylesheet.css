@@ -62,15 +62,24 @@ a:hover
 
 ul
 { margin: 2px 0 22px 30px;
- line-height: 1.7em;
- font-style: normal;
- font-size: 100%;}
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+ }
 
 ol
 { margin: 8px 0 22px 20px;}
 
 ol li
 { margin: 0 0 11px 0;}
+
+
+li {
+      display: block;
+      padding: 0px 10px 0px 10px;
+}
 
 #main, #header, #banner, #menubar, #site_content, #footer, #content_blue
 { margin-left: auto; 
