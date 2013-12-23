@@ -355,6 +355,9 @@ ul#menu li.current a, ul#menu li:hover a
     height: 50%;
     width: 100%;
 }
+#header_image {
+    height:50%;
+}
 #slider-wrapper {
     height: 400px;
     background: transparent;
