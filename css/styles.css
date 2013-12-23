@@ -321,49 +321,56 @@ ul#menu li.current a, ul#menu li:hover a
  color: #47433F;
  margin: 28px 0;}
 
-.form_settings .submit
-{ font: bold 100% arial; 
- width: 99px; 
- margin: 0 0 0 206px; 
- height: 26px;
- padding: 2px 0 3px 0;
- cursor: pointer; 
- background: #fff;
- background: -moz-linear-gradient(#fff, #ccc);
- background: -o-linear-gradient(#fff, #ccc);
- background: -webkit-linear-gradient(#fff, #ccc);
- border-radius: 0px 15px 0px 15px;
- -moz-border-radius: 0px 15px 0px 15px;
- -webkit-border: 0px 15px 0px 15px;
- -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
- -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
- box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
- color: #000;}
- 
- 
+.form_settings .submit {
+    font: bold 100% arial; 
+    width: 99px; 
+    margin: 0 0 0 206px; 
+    height: 26px;
+    padding: 2px 0 3px 0;
+    cursor: pointer; 
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #ccc);
+    background: -o-linear-gradient(#fff, #ccc);
+    background: -webkit-linear-gradient(#fff, #ccc);
+    border-radius: 0px 15px 0px 15px;
+    -moz-border-radius: 0px 15px 0px 15px;
+    -webkit-border: 0px 15px 0px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    color: #000;
+ }   
+     
+     
 #banner_image {
-width: 920px;
-height: 430px;
-float: left;
-margin: 20px 0 0 0;
-padding: 0 0 0 0;
+    width: 920px;
+    height: 430px;
+    float: left;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 0;
+}
+.site_image {
+    padding: 30px;
+    position: absolute;
+    height: 50%;
+    width: 100%;
 }
 #slider-wrapper {
-   height: 400px;
-background: transparent;
-width: 920px;
+    height: 400px;
+    background: transparent;
+    width: 920px;
 }
 #slider {
-   background: url("../images/loading.gif") no-repeat scroll 50% 50% transparent;
-   height: 400px;
-   position: relative;
-   width: 920px;
+    background: url("../images/loading.gif") no-repeat scroll 50% 50% transparent;
+    height: 400px;
+    position: relative;
+    width: 920px;
 }
 #slider img {
-   display: none;
-   left: 0;
-   position: absolute;
-   top: 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
 }
 #slider a {
    border: 0 none;
