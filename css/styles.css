@@ -9,6 +9,7 @@ body
 { font: normal 85% Arial, Helvetica, sans-serif;
  background: #1d1d1d url("/images/background.jpg") repeat;
  color: #fff;
+ margin: 0 auto;
 }
 
 p
