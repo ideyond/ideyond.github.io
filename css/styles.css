@@ -167,7 +167,7 @@ ul#menu li.current a, ul#menu li:hover a
  height: 30px;
  text-shadow: 0px 1px 0px #0C3976;
  color: #fff;
- background: #621B45;
+ background: #0a5c50;
  background: -moz-linear-gradient(#169e9a, #052e28);
  background: -o-linear-gradient(#169e9a, #052e28);
  background: -webkit-linear-gradient(#169e9a, #052e28);
@@ -177,6 +177,35 @@ ul#menu li.current a, ul#menu li:hover a
  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}  
+ 
+ .position{
+  height: 30px;}
+ 
+ .position h3{
+ { padding: 5px 0 0 10px;
+ font: normal 140% Arial, Helvetica, sans-serif;
+ height: 30px;
+ text-shadow: 0px 1px 0px #0C3976;
+ color: #fff;
+ background: #0a5c50;
+ background: -moz-linear-gradient(#169e9a, #052e28);
+ background: -o-linear-gradient(#169e9a, #052e28);
+ background: -webkit-linear-gradient(#169e9a, #052e28);
+ border-radius: 0px 15px 0px 15px;
+ -moz-border-radius: 0px 15px 0px 15px;
+ -webkit-border: 0px 15px 0px 15px;
+ -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+ -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+ box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
+ 
+ .position h4, .position p{
+  opacity: 0;}
+  
+ 
+ .show-description .position{
+  height: 80px;}
+  
+  .show-description .position h4
 
 #content
 { width: 680px;
