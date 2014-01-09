@@ -248,7 +248,8 @@ ul#menu li.current a, ul#menu li:hover a
  
  #team_page_footer
  { position: relative;
-   top: 200px; }
+   top: 200px; 
+   text-align: center;}
 
  #footer a, #footer a:hover
 { color: #FFF;
