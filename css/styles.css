@@ -112,7 +112,9 @@ li {
  
 #menu_items
 { float: right; 
- width: 560px;}
+ width: 560px;
+ Position: relative;
+ left: 800px;}
  
 ul#menu
 { margin:0;
