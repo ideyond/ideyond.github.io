@@ -111,9 +111,10 @@ li {
  text-shadow: 1px 1px #000;  }
  
 #menu_items
-{ float: right; 
- width: 443px;
- position: relative;}
+{ width: 443px;
+ position: relative;
+ left: -500px;
+ top: -140px;}
  
 ul#menu
 { margin:0;
