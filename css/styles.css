@@ -51,7 +51,7 @@ h5, h6
  padding-bottom: 15px;}
 
 a
-{ color: #FFF;
+{ color: #000 ;
  font-weight: bold;
  background: transparent;
  outline: none;
@@ -133,7 +133,7 @@ ul#menu li a
 { float: left;
  font: bold 120% Arial, Helvetica, sans-serif;
  text-align: center;
- color: #FFF;
+ color: #000;
  text-decoration: none;
  height: 24px;
  text-shadow: 1px 1px #000;
@@ -170,7 +170,7 @@ ul#menu li.current a, ul#menu li:hover a
  font: normal 140% Arial, Helvetica, sans-serif;
  height: 30px;
  text-shadow: 0px 1px 0px #0C3976;
- color: #fff;
+ color: #000;
  background: #0a5c50;
  background: -moz-linear-gradient(#169e9a, #052e28);
  background: -o-linear-gradient(#169e9a, #052e28);
@@ -205,10 +205,10 @@ ul#menu li.current a, ul#menu li:hover a
  text-align: center; } 
  
 #content_blue p
-{ color: #FFF;}  
+{ color: #000;}  
 
 #content_blue h4
-{ color: #FFF;
+{ color: #000;
  text-shadow: 0px 1px 0px #1162CB;}
  
 .content_blue_container_box
@@ -245,7 +245,7 @@ ul#menu li.current a, ul#menu li:hover a
  padding-top: 20px;
  text-align: center; 
  background: transparent;
- color: #FFF;
+ color: #000;
  text-shadow: 0px 1px 0px #000;
  position: static;
  top: 200px;}
@@ -256,7 +256,7 @@ ul#menu li.current a, ul#menu li:hover a
    text-align: center;}
 
  #footer a, #footer a:hover
-{ color: #FFF;
+{ color: #000;
  text-shadow: 0px 1px 0px #000;
  text-decoration: none;
  padding-bottom: 20px;}
@@ -270,7 +270,7 @@ ul#menu li.current a, ul#menu li:hover a
  margin-left: 95px;
  width: 90px;
  padding: 5px 5px 10px 7px;
- background: #fff;
+ background: #000;
  background: -moz-linear-gradient(#fff, #ccc);
  background: -o-linear-gradient(#fff, #ccc);
  background: -webkit-linear-gradient(#fff, #ccc);
@@ -320,7 +320,7 @@ ul#menu li.current a, ul#menu li:hover a
  width: 299px; 
  font: 100% arial; 
  border: 1px solid #BBB; 
- background: #FFF; 
+ background: #000; 
  color: #47433F;}
  
 .form_settings input[type="checkbox"]
@@ -328,7 +328,7 @@ ul#menu li.current a, ul#menu li:hover a
  width: 15px; 
  font: 100% arial; 
  border: 0; 
- background: #FFF; 
+ background: #000; 
  color: #47433F;
  margin: 28px 0;}
 
@@ -339,7 +339,7 @@ ul#menu li.current a, ul#menu li:hover a
     height: 26px;
     padding: 2px 0 3px 0;
     cursor: pointer; 
-    background: #fff;
+    background: #000;
     background: -moz-linear-gradient(#fff, #ccc);
     background: -o-linear-gradient(#fff, #ccc);
     background: -webkit-linear-gradient(#fff, #ccc);
