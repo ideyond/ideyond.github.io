@@ -91,7 +91,8 @@ li {
 #menubar
 { width: 160px;
  height: 40px;
- margin-top: 40px;  } 
+ margin-top: 40px; 
+ background: #208f7e;} 
  
 #welcome
 { width: 360px;
