@@ -92,7 +92,7 @@ li {
 { width: 100%;
  height: 25%;
  margin-top: -20px; 
- background: #208f7e;} 
+ background: #208F7E;} 
  
 #welcome
 { width: 360px;
@@ -171,10 +171,10 @@ ul#menu li.current a, ul#menu li:hover a
  height: 30px;
  text-shadow: 0px 1px 0px #0C3976;
  color: #fff;
- background: #0a5c50;
- background: -moz-linear-gradient(#169e9a, #052e28);
- background: -o-linear-gradient(#169e9a, #052e28);
- background: -webkit-linear-gradient(#169e9a, #052e28);
+ background: #208F7E;
+ background: -moz-linear-gradient(#208F7E, #14584D);
+ background: -o-linear-gradient(#208F7E, #14584D);
+ background: -webkit-linear-gradient(#208F7E, #14584D);
  border-radius: 0px 15px 0px 15px;
  -moz-border-radius: 0px 15px 0px 15px;
  -webkit-border: 0px 15px 0px 15px;
@@ -217,10 +217,10 @@ ul#menu li.current a, ul#menu li:hover a
  text-align: center;
  margin: 20px 20px 10px 0;
  float: left;
- background: #621B45;
- background: -moz-linear-gradient(#169e9a, #052e28);
- background: -o-linear-gradient(#169e9a, #052e28);
- background: -webkit-linear-gradient(#169e9a, #052e28);
+ background: #208F7E;
+ background: -moz-linear-gradient(#208F7E, #14584D);
+ background: -o-linear-gradient(#208F7E, #14584D);
+ background: -webkit-linear-gradient(#208F7E, #14584D);
  border-radius: 0px 15px 0px 15px;
  -moz-border-radius: 0px 15px 0px 15px;
  -webkit-border: 0px 15px 0px 15px;}
@@ -231,10 +231,10 @@ ul#menu li.current a, ul#menu li:hover a
  text-align: center;
  margin: 20px 0 10px 0;
  float: left;
- background: #621B45;
- background: -moz-linear-gradient(#169e9a, #052e28);
- background: -o-linear-gradient(#169e9a, #052e28);
- background: -webkit-linear-gradient(#169e9a, #052e28);
+ background: #208F7E;
+ background: -moz-linear-gradient(#208F7E, #14584D);
+ background: -o-linear-gradient(#208F7E, #14584D);
+ background: -webkit-linear-gradient(#208F7E, #14584D);
  border-radius: 0px 15px 0px 15px;
  -moz-border-radius: 0px 15px 0px 15px;
  -webkit-border: 0px 15px 0px 15px;}
@@ -289,10 +289,10 @@ ul#menu li.current a, ul#menu li:hover a
  height: 15px;
  width: 90px;
  padding: 5px 5px 10px 7px;
- background: #621B45;
- background: -moz-linear-gradient(#169e9a, #052e28);
- background: -o-linear-gradient(#169e9a, #052e28);
- background: -webkit-linear-gradient(#169e9a, #052e28);
+ background: #208F7E;
+ background: -moz-linear-gradient(#208F7E, #14584D);
+ background: -o-linear-gradient(#208F7E, #14584D);
+ background: -webkit-linear-gradient(#208F7E, #14584D);
  border-radius: 0px 15px 0px 15px;
  -moz-border-radius: 0px 15px 0px 15px;
  -webkit-border: 0px 15px 0px 15px;
