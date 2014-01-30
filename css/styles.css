@@ -95,7 +95,7 @@ li {
  background: #208F7E;} 
  
 #welcome
-{ width: 360px;
+{ width: 800;
  float: center;
  text-align: center;
  text-decoration: none;
@@ -109,13 +109,17 @@ li {
 { font: normal 150% Arial, Helvetica, sans-serif;
  letter-spacing: 19.6px;
  text-decoration: none;
- text-shadow: 1px 1px #fff;  }
+ color: #faebd7;
+ text-shadow: 1px 1px #000;
+ font-weight: bold;
+ font-style: italic;}
  
 #menu_items
 { width: 443px;
  position: relative;
- left: -500px;
- top: -140px;}
+ left: 25%;
+ top: -13.5%;
+ z-index:1;}
  
 ul#menu
 { margin:0;
