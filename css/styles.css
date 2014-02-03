@@ -114,7 +114,8 @@ li {
  font-style: italic;}
  
 ul#menu
-{margin: 0 auto;}
+{margin: 0 auto;
+float: right;}
 
 ul#menu li
 { padding: 0 0 0 0px;
