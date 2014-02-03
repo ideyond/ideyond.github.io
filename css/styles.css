@@ -97,7 +97,7 @@ header
  position: relative;
  top: -20px;} 
  
-#header
+#welcome
 { width: 800;
  float: center;
  text-align: center;
@@ -108,7 +108,7 @@ header
  padding: 20px;
  background: transparent;}  
    
-#header h1 a
+#welcome h1 a
 { font: normal 150% Arial, Helvetica, sans-serif;
  letter-spacing: 19.6px;
  text-decoration: none;
