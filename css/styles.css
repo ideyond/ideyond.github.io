@@ -90,7 +90,7 @@ li {
 
 #header
 { width: 100%;
- height: 25%;
+ height: 250px;
  background: #208F7E;} 
  
 #welcome
@@ -114,8 +114,7 @@ li {
  font-style: italic;}
  
 ul#menu
-{ margin:0;
- float: right;}
+{}
 
 ul#menu li
 { padding: 0 0 0 0px;
